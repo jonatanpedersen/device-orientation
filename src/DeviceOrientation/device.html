@@ -1,0 +1,22 @@
+﻿<header>
+    <div class="container">
+        <h1>Device Orientation <small>({{deviceId}})</small></h1>
+    </div>
+</header>
+
+<div class="container">
+    <hr/>
+    <div class="jumbotron">
+        <div class="device device-default" ng-style="{transform: deviceRotation}"></div>
+        <dl class="dl-horizontal">
+            <dt>Alpha</dt>
+            <dd>{{deviceOrientation.alpha}}</dd>
+            <dt>Beta</dt>
+            <dd>{{deviceOrientation.beta}}</dd>
+            <dt>Gamma</dt>
+            <dd>{{deviceOrientation.gamma}}</dd>
+            <dt>Rotation</dt>
+            <dd>{{deviceRotation}}</dd>
+        </dl>
+    </div>
+</div>
