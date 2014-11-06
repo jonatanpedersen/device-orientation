@@ -1,7 +1,7 @@
 Device Orientation
 ==================
 
-Just a fun little demonstration of realtime communication with ASP.Net SingalR and the javascript device orientation api. It is available here http://deviceorientation.bocami.com
+Just a fun little demonstration of realtime communication with ASP.Net SingalR and the javascript device orientation api.
 
 ## Usage
 
